@@ -1,0 +1,16 @@
+CREATE TABLE Countries (
+    name VARCHAR(20)
+    latitude INT,
+    longitude INT,
+    area INT,
+    population INT,
+    gdp INT,
+    gdpYear INT
+);
+
+ALTER TABLE Countries ADD Primary KEY;
+
+CREATE TABLE Borders ();
+
+INSERT INTO Countries (name) Values (
+    "Germany", "Netherlands", "Belgium", "Luxemburg", "Poland", "Czech Republic", "Austria", "France", "Switzerland");
