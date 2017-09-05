@@ -8,9 +8,10 @@ CREATE TABLE Countries (
     gdpYear INT
 );
 
-ALTER TABLE Countries ADD Primary KEY;
+ALTER TABLE Countries (name) Primary KEY;
 
 CREATE TABLE Borders ();
 
 INSERT INTO Countries (name) Values (
-    "Germany", "Netherlands", "Belgium", "Luxemburg", "Poland", "Czech Republic", "Austria", "France", "Switzerland");
+    "Germany", "Netherlands", "Belgium", "Luxemburg", "Poland",
+    "Czech Republic", "Austria", "France", "Switzerland");
