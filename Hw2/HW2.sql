@@ -1,8 +1,7 @@
 /*
 * Joey Brennan
-*
+* \i 'C:/Users/Joey/Documents/Database/Hw2/HW2.sql';
 */
-\o "C:\Users\Joey\Documents\Database\Hw2\HW2.out";
 
 CREATE TABLE Countries (
     name VARCHAR(20) PRIMARY KEY,
@@ -75,6 +74,7 @@ Values (
 INSERT INTO Borders(name, neighbor)
 Values (
     'Germany', 'France');
+
 INSERT INTO Borders(name, neighbor)
 Values (
     'Germany', 'Austria');
@@ -97,7 +97,15 @@ Values (
 
 INSERT INTO Borders(name, neighbor)
 Values (
+    'Netherlands', 'Germany');
+
+INSERT INTO Borders(name, neighbor)
+Values (
     'Luxemburg', 'France');
+
+INSERT INTO Borders(name, neighbor)
+Values (
+    'Luxemburg', 'Germany');
 
 INSERT INTO Borders(name, neighbor)
 Values (
@@ -109,6 +117,22 @@ Values (
 
 INSERT INTO Borders(name, neighbor)
 Values (
+    'Poland', 'Germany');
+
+INSERT INTO Borders(name, neighbor)
+Values (
+    'Czech Republic', 'Germany');
+
+INSERT INTO Borders(name, neighbor)
+Values (
+    'Czech Republic', 'Poland');
+
+INSERT INTO Borders(name, neighbor)
+Values (
+    'Czech Republic', 'Austria');
+
+INSERT INTO Borders(name, neighbor)
+Values (
     'Austria', 'Czech Republic');
 
 INSERT INTO Borders(name, neighbor)
@@ -117,8 +141,25 @@ Values (
 
 INSERT INTO Borders(name, neighbor)
 Values (
+    'France', 'Germany');
+
+INSERT INTO Borders(name, neighbor)
+Values (
     'France', 'Belgium');
 
 INSERT INTO Borders(name, neighbor)
 Values (
     'Switzerland', 'Austria');
+
+INSERT INTO Borders(name, neighbor)
+Values (
+    'Switzerland', 'France');
+
+\o 'C:/Users/Joey/Documents/Database/Hw2/HW2.out';
+
+select neighbor from borders where name = 'Germany';
+
+select name from Countries where population < 100000000;
+
+--select name from select neighbor from borders  where name = 'Germany' where population < 1000000000
+\o
