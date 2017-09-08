@@ -5,155 +5,113 @@
 -- #2 create countries table
 CREATE TABLE Countries (
     name VARCHAR(20) PRIMARY KEY,
-    latitude INT,
-    longitude INT,
+    latitude VARCHAR(8),
+    longitude VARCHAR(8),
     area INT,
     population INT,
-    gdp INT,
+    gdp REAL, --in Billions
     gdpYear INT
 );
 --4a create borders table
 CREATE TABLE Borders (
-    id SERIAL PRIMARY KEY,
     name VARCHAR(20) references Countries(name),
     neighbor VARCHAR(20) references Countries(name));
 
 --populate both countries and borders table
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values(
-    'Germany', 5100, 900, 357022, 80594017, 349500, 2016);
+INSERT INTO Countries Values(
+    'Germany', '51 00 N', '9 00 E', 357022, 80594017, 3395., 2016);
 
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values (
-    'Netherlands', 5230, 545, 41543, 17084719, 773, 2016);
+INSERT INTO Countries Values (
+    'Netherlands', '52 30 N', '5 45 E', 41543, 17084719, 773.9, 2016);
 
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values (
-    'Belgium', 5050, 400, 30528, 11491346, 470, 2016);
+INSERT INTO Countries Values (
+    'Belgium', '50 50 N', '4 00 E', 30528, 11491346, 470.2, 2016);
 
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values (
-    'Luxemburg', 4945, 610, 2586, 594130, 60, 2016);
+INSERT INTO Countries Values (
+    'Luxemburg', '49 45 N', '6 10 E', 2586, 594130, 60.98, 2016);
 
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values (
-    'Poland', 5200, 2000, 312685, 38476269, 467, 2016);
+INSERT INTO Countries Values (
+    'Poland', '52 00 N', '20 00 E', 312685, 38476269, 467.4, 2016);
 
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values (
-    'Czech Republic', 4945, 1530, 78867, 10674723, 193, 2016);
+INSERT INTO Countries Values (
+    'Czech Republic', '49 45 N', '15 30 E', 78867, 10674723, 193.5, 2016);
 
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values (
-    'Austria', 4720, 1320, 83871, 8754413, 387, 2016);
+INSERT INTO Countries Values (
+    'Austria', '47 20 N', '13 20 E', 83871, 8754413, 387.3, 2016);
 
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values (
-    'France', 4600, 200, 643801, 67106161, 248800 , 2016);
+INSERT INTO Countries Values (
+    'France', '46 00 N', '2 00 E', 643801, 67106161, 2488. , 2016);
 
-INSERT INTO Countries (
-    name, latitude, longitude, area, population, gdp, gdpYear)
-Values (
-    'Switzerland', 4700, 800, 41277, 8236303, 662, 2016);
+INSERT INTO Countries Values (
+    'Switzerland', '47 00 N', '8 00 E', 41277, 8236303, 662.5, 2016);
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Germany', 'Poland');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Germany', 'Czech Republic');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Germany', 'France');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Germany', 'Austria');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Germany', 'Belgium');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Germany', 'Luxemburg');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Germany', 'Netherlands');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Netherlands', 'Belgium');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Netherlands', 'Germany');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Luxemburg', 'France');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Luxemburg', 'Germany');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Luxemburg', 'Belgium');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Poland', 'Czech Republic');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Poland', 'Germany');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Czech Republic', 'Germany');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Czech Republic', 'Poland');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Czech Republic', 'Austria');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Austria', 'Czech Republic');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'France', 'Switzerland');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'France', 'Germany');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'France', 'Belgium');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Switzerland', 'Austria');
 
-INSERT INTO Borders(name, neighbor)
-Values (
+INSERT INTO Borders(name, neighbor) Values (
     'Switzerland', 'France');
 
 \o 'C:/Users/Joey/Documents/Database/Hw2/HW2.out';
