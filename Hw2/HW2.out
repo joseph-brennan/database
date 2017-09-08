@@ -9,22 +9,11 @@
  Netherlands
 (7 rows)
 
-      name      
-----------------
- Germany
- Netherlands
- Belgium
- Poland
- Czech Republic
- France
-(6 rows)
+ name 
+------
+(0 rows)
 
-    neighbor    
-----------------
- Netherlands
- Belgium
- Poland
- Czech Republic
- France
-(5 rows)
+ neighbor 
+----------
+(0 rows)
 

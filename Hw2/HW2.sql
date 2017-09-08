@@ -9,7 +9,7 @@ CREATE TABLE Countries (
     longitude VARCHAR(8),
     area INT,
     population INT,
-    gdp REAL, --in Billions
+    gdp_billion REAL,
     gdpYear INT
 );
 --4a create borders table
@@ -45,74 +45,41 @@ INSERT INTO Countries Values (
 INSERT INTO Countries Values (
     'Switzerland', '47 00 N', '8 00 E', 41277, 8236303, 662.5, 2016);
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Germany', 'Poland');
+INSERT INTO Borders Values ('Germany', 'Poland');
+INSERT INTO Borders Values ('Germany', 'Czech Republic');
+INSERT INTO Borders Values ('Germany', 'France');
+INSERT INTO Borders Values ('Germany', 'Austria');
+INSERT INTO Borders Values ('Germany', 'Belgium');
+INSERT INTO Borders Values ('Germany', 'Luxemburg');
+INSERT INTO Borders Values ('Germany', 'Netherlands');
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Germany', 'Czech Republic');
+INSERT INTO Borders Values ('Netherlands', 'Belgium');
+INSERT INTO Borders Values ('Netherlands', 'Germany');
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Germany', 'France');
+INSERT INTO Borders Values ('Belgium', 'Germany');
+INSERT INTO Borders Values ('Belgium', 'Luxemburg');
+INSERT INTO Borders Values ('Belgium', 'France');
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Germany', 'Austria');
+INSERT INTO Borders Values ('Luxemburg', 'France');
+INSERT INTO Borders Values ('Luxemburg', 'Germany');
+INSERT INTO Borders Values ('Luxemburg', 'Belgium');
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Germany', 'Belgium');
+INSERT INTO Borders Values ('Poland', 'Czech Republic');
+INSERT INTO Borders Values ('Poland', 'Germany');
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Germany', 'Luxemburg');
+INSERT INTO Borders Values ('Czech Republic', 'Germany');
+INSERT INTO Borders Values ('Czech Republic', 'Poland');
+INSERT INTO Borders Values ('Czech Republic', 'Austria');
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Germany', 'Netherlands');
+INSERT INTO Borders Values ('Austria', 'Czech Republic');
+INSERT INTO Borders values ('Austria', 'Germany');
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Netherlands', 'Belgium');
+INSERT INTO Borders Values ('France', 'Switzerland');
+INSERT INTO Borders Values ('France', 'Germany');
+INSERT INTO Borders Values ('France', 'Belgium');
 
-INSERT INTO Borders(name, neighbor) Values (
-    'Netherlands', 'Germany');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Luxemburg', 'France');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Luxemburg', 'Germany');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Luxemburg', 'Belgium');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Poland', 'Czech Republic');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Poland', 'Germany');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Czech Republic', 'Germany');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Czech Republic', 'Poland');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Czech Republic', 'Austria');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Austria', 'Czech Republic');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'France', 'Switzerland');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'France', 'Germany');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'France', 'Belgium');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Switzerland', 'Austria');
-
-INSERT INTO Borders(name, neighbor) Values (
-    'Switzerland', 'France');
+INSERT INTO Borders Values ('Switzerland', 'Austria');
+INSERT INTO Borders Values ('Switzerland', 'France');
 
 \o 'C:/Users/Joey/Documents/Database/Hw2/HW2.out';
 
@@ -121,11 +88,11 @@ select neighbor from borders where name = 'Germany';
 
 --4d. Use query to display all countries that have a population
 --    greater than 100 million
-select name from Countries where population > 10000000;
+select name from Countries where population > 100000000;
 
 --4e. Use query to display all countries that a have a population
 --    greater than 100 million AND border Germany
 select neighbor from borders
 INNER JOIN Countries C ON C.name = neighbor
-WHERE borders.name = 'Germany' AND C.population > 10000000;
+WHERE borders.name = 'Germany' AND C.population > 100000000;
 \o
