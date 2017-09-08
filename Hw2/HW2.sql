@@ -159,10 +159,10 @@ Values (
 
 select neighbor from borders where name = 'Germany';
 
-select name from Countries where population > 3500000;
+select name from Countries where population > 10000000;
 
 select neighbor from borders
 INNER JOIN Countries C ON C.name = neighbor
-WHERE borders.name = 'Germany' AND C.population > 3500000;
+WHERE borders.name = 'Germany' AND C.population > 10000000;
 --select name from select neighbor from borders  where name = 'Germany' where population < 1000000000
 \o

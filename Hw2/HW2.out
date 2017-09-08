@@ -16,18 +16,15 @@
  Belgium
  Poland
  Czech Republic
- Austria
  France
- Switzerland
-(8 rows)
+(6 rows)
 
     neighbor    
 ----------------
  Poland
  Czech Republic
  France
- Austria
  Belgium
  Netherlands
-(6 rows)
+(5 rows)
 
