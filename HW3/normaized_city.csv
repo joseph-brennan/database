@@ -1,0 +1,251 @@
+city_state,destination_market_id,destination_wac,origin_wac
+"Denver, CO",30325,82,91
+"San Francisco, CA",32457,91,82
+"Denver, CO",30325,82,61
+"Dickinson, ND",31315,66,82
+"Williston, ND",32389,66,82
+"Denver, CO",30325,82,66
+"St. Louis, MO",31123,64,82
+"Eagle, CO",31503,82,64
+"Eagle, CO",31503,82,36
+"Denver, CO",30325,82,34
+"Greer, SC",31871,37,82
+"Victorville, CA",35570,91,82
+"Colorado Springs, CO",30189,82,85
+"Burbank, CA",32575,91,82
+"Eagle, CO",31503,82,91
+"Aspen, CO",30372,82,87
+"Phoenix, AZ",30466,81,82
+"Denver, CO",30325,82,23
+"Colorado Springs, CO",30189,82,34
+"Atlanta, GA",30397,34,82
+"Dallas/Fort Worth, TX",30194,74,82
+"Denver, CO",30325,82,88
+"Cincinnati, OH",33105,52,82
+"Detroit, MI",31295,43,82
+"Sioux Falls, SD",31775,67,82
+"Las Vegas, NV",32211,85,82
+"San Diego, CA",33570,91,82
+"Salt Lake City, UT",34614,87,82
+"Denver, CO",30325,82,43
+"Denver, CO",30325,82,63
+"Denver, CO",30325,82,73
+"Denver, CO",30325,82,87
+"Denver, CO",30325,82,11
+"Colorado Springs, CO",30189,82,91
+"Denver, CO",30325,82,65
+"Cleveland, OH",30647,44,82
+"Jackson/Vicksburg, MS",32448,53,82
+"Los Angeles, CA",32575,91,82
+"Miami, FL",32467,33,82
+"Richmond, VA",34524,38,82
+"Denver, CO",30325,82,64
+"Denver, CO",30325,82,82
+"Colorado Springs, CO",30189,82,74
+"Buffalo, NY",30792,22,82
+"Corpus Christi, TX",31140,74,82
+"Panama City, FL",31481,33,82
+"Gulfport/Biloxi, MS",31973,53,82
+"Lubbock, TX",32896,74,82
+"Little Rock, AR",32600,71,82
+"Austin, TX",30423,74,82
+"Chicago, IL",30977,41,82
+"San Jose, CA",32457,91,82
+"Denver, CO",30325,82,74
+"Denver, CO",30325,82,44
+"Aspen, CO",30372,82,74
+"Denver, CO",30325,82,81
+"Oakland, CA",32457,91,82
+"Pontiac, MI",34275,43,82
+"Grand Junction, CO",31921,82,87
+"Wendover, UT",31563,87,82
+"Denver, CO",30325,82,22
+"Denver, CO",30325,82,41
+"Milwaukee, WI",33342,45,82
+"Denver, CO",30325,82,85
+"Bullhead City, AZ",30590,81,82
+"Fort Collins/Loveland, CO",31719,82,81
+"Montrose/Delta, CO",33502,82,81
+"Pueblo, CO",34288,82,81
+"Pueblo, CO",34288,82,51
+"Denver, CO",30325,82,52
+"Colorado Springs, CO",30189,82,93
+"Oklahoma City, OK",33851,73,82
+"Denver, CO",30325,82,62
+"Scottsbluff, NE",30558,65,82
+"Dodge City, KS",31283,62,82
+"Kearney, NE",31468,65,82
+"North Platte, NE",32899,65,82
+"Liberal, KS",32902,62,82
+"Page, AZ",34081,81,82
+"Farmington, NM",31711,86,82
+"Watertown, SD",30409,67,82
+"Grand Junction, CO",31921,82,85
+"Wichita, KS",30928,62,82
+"Boston, MA",30721,13,82
+"Denver, CO",30325,82,33
+"Colorado Springs, CO",30189,82,41
+"Denver, CO",30325,82,36
+"Colorado Springs, CO",30189,82,87
+"Minneapolis, MN",31650,63,82
+"Tulsa, OK",34653,73,82
+"Missoula, MT",33486,84,82
+"Tucson, AZ",30436,81,82
+"Colorado Springs, CO",30189,82,38
+"Albuquerque, NM",30140,86,82
+"Cedar Rapids/Iowa City, IA",31003,61,82
+"Cody, WY",31097,88,82
+"Casper, WY",31122,88,82
+"Grand Rapids, MI",31986,43,82
+"Houston, TX",31453,74,82
+"Jackson, WY",32441,88,82
+"Medford, OR",33264,92,82
+"Omaha, NE",33316,65,82
+"Bend/Redmond, OR",34489,92,82
+"Louisville, KY",33044,52,82
+"Santa Ana, CA",32575,91,82
+"Sun Valley/Hailey/Ketchum, ID",35041,83,82
+"Denver, CO",30325,82,71
+"Denver, CO",30325,82,92
+"Colorado Springs, CO",30189,82,84
+"Grand Junction, CO",31921,82,93
+"Denver, CO",30325,82,86
+"Denver, CO",30325,82,13
+"Denver, CO",30325,82,84
+"Billings, MT",30620,84,82
+"Bozeman, MT",30849,84,82
+"Fort Lauderdale, FL",32467,33,82
+"Washington, DC",30852,38,82
+"Kansas City, MO",33198,64,82
+"Orlando, FL",31454,33,82
+"Philadelphia, PA",34100,23,82
+"Palm Springs, CA",34262,91,82
+"Reno, NV",34570,85,82
+"Denver, CO",30325,82,38
+"Denver, CO",30325,82,37
+"Boise, ID",30713,83,82
+"Portland, OR",34057,92,82
+"Fort Myers, FL",31714,33,82
+"Denver, CO",30325,82,72
+"Colorado Springs, CO",30189,82,82
+"Des Moines, IA",31423,61,82
+"Columbus, OH",31066,44,82
+"Indianapolis, IN",32337,42,82
+"Knoxville, TN",35412,54,82
+"Denver, CO",30325,82,42
+"Denver, CO",30325,82,54
+"New Orleans, LA",33495,72,82
+"Grand Junction, CO",31921,82,54
+"Lawton/Fort Sill, OK",32891,73,82
+"Durango, CO",30285,82,82
+"Montrose/Delta, CO",33502,82,74
+"Salina, KS",34877,62,82
+"Gunnison, CO",32012,82,74
+"Seattle, WA",30559,93,82
+"Grand Junction, CO",31921,82,82
+"Great Falls, MT",31895,84,82
+"San Antonio, TX",33214,74,82
+"Aspen, CO",30372,82,82
+"Grand Junction, CO",31921,82,41
+"Spokane, WA",31884,93,82
+"Raleigh/Durham, NC",34492,36,82
+"Santa Barbara, CA",34689,91,82
+"Tampa, FL",33195,33,82
+"Denver, CO",30325,82,21
+"Denver, CO",30325,82,93
+"Denver, CO",30325,82,83
+"Baltimore, MD",30852,35,82
+"Charleston, SC",30994,37,82
+"Birmingham, AL",30599,51,82
+"Madison, WI",33485,45,82
+"Denver, CO",30325,82,45
+"El Paso, TX",30615,74,82
+"Amarillo, TX",30279,74,82
+"Dayton, OH",31267,44,82
+"Montrose/Delta, CO",33502,82,82
+"Ontario, CA",32575,91,82
+"Grand Junction, CO",31921,82,91
+"Denver, CO",30325,82,67
+"Denver, CO",30325,82,35
+"Newark, NJ",31703,21,82
+"Long Beach, CA",32575,91,82
+"Norfolk, VA",33667,38,82
+"Sacramento, CA",33192,91,82
+"Denver, CO",30325,82,51
+"Nashville, TN",30693,54,82
+"Memphis, TN",33244,54,82
+"Fayetteville, AR",31834,71,82
+"Springfield, MO",34783,64,82
+"Shreveport, LA",30476,72,82
+"Durango, CO",30285,82,91
+"Charlotte, NC",31057,36,82
+"Eugene, OR",31603,92,82
+"Kalispell, MT",31648,84,82
+"Lihue, HI",32982,2,82
+"Denver, CO",30325,82,2
+"Montrose/Delta, CO",33502,82,41
+"Minot, ND",33304,66,82
+"Cheyenne, WY",31233,88,82
+"North Bend/Coos Bay, OR",33964,92,82
+"Jacksonville, FL",31136,33,82
+"Pittsburgh, PA",30198,23,82
+"Pensacola, FL",33728,33,82
+"Hayden, CO",34699,82,82
+"Hartford, CT",30529,11,82
+"New York, NY",31703,22,82
+"Gunnison, CO",32012,82,82
+"Colorado Springs, CO",30189,82,81
+"Branson, MO",30643,64,82
+"Telluride, CO",35177,82,82
+"Cortez, CO",30950,82,81
+"Greensboro/High Point, NC",31995,36,82
+"Moline, IL",33367,41,82
+"Fresno, CA",31638,91,82
+"Dallas, TX",30194,74,82
+"Durango, CO",30285,82,86
+"Bismarck/Mandan, ND",30627,66,82
+"Colorado Springs, CO",30189,82,54
+"Rapid City, SD",34457,67,82
+"Aspen, CO",30372,82,91
+"San Luis Obispo, CA",34236,91,82
+"Kona, HI",32758,2,82
+"Kahului, HI",33830,2,82
+"Midland/Odessa, TX",33158,74,82
+"Hayden, CO",34699,82,88
+"Cortez, CO",30950,82,82
+"Alamosa, CO",30272,82,86
+"Lincoln, NE",33029,65,82
+"Fargo, ND",31637,66,82
+"Eagle, CO",31503,82,74
+"Eagle, CO",31503,82,82
+"Helena, MT",32156,84,82
+"Honolulu, HI",32134,2,82
+"Albany, NY",30257,22,82
+"Colorado Springs, CO",30189,82,33
+"Huntsville, AL",30255,51,82
+"Riverton/Lander, WY",34534,88,82
+"Pierre, SD",34120,67,82
+"Aspen, CO",30372,82,41
+"Denver, CO",30325,82,1
+"Hays, KS",32255,62,82
+"Jamestown, ND",32519,66,82
+"Laramie, WY",32888,88,82
+"Alliance, NE",30221,65,82
+"Chadron, NE",30925,65,82
+"McCook, NE",33200,65,82
+"Vernal, UT",35582,87,82
+"Anchorage, AK",30299,1,82
+"Bakersfield, CA",30561,91,82
+"Gillette, WY",31865,88,82
+"Rock Springs, WY",34543,88,82
+"Moab, UT",31092,87,82
+"Pasco/Kennewick/Richland, WA",34252,93,82
+"St. George, UT",34794,87,82
+"Durango, CO",30285,82,81
+"Grand Junction, CO",31921,82,81
+"Santa Fe, NM",34674,86,82
+"Pueblo, CO",34288,82,82
+"Alamosa, CO",30272,82,82
+"Idaho Falls, ID",32280,83,82
+"Grand Junction, CO",31921,82,74
+"Durango, CO",30285,82,74
