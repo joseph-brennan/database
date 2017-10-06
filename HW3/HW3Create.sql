@@ -54,12 +54,13 @@ CREATE TABLE Airports (
 );
 
 CREATE TABLE Carrier (
-    carrier_name VARCHAR(50),
-    unique_carrier_name VARCHAR(50),
-    carrier VARCHAR(10) PRIMARY KEY,
+    carrier_name VARCHAR(80),
+    unique_carrier_name VARCHAR(80),
+    carrier VARCHAR(10),
     region_abr VARCHAR(10),
     carrier_group INT,
     carreir_group_new INT,
+    PRIMARY KEY (unique_carrier_name),
     FOREIGN KEY (region_abr) REFERENCES Regions(region_abr)
 );
 
