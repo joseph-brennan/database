@@ -1,263 +1,1910 @@
-city_state,destination_market_id,destination_wac,origin_wac,city_abr
-"Denver, CO",30325,82,91,DEN
-"San Francisco, CA",32457,91,82,SFO
-"Denver, CO",30325,82,61,APA
-"Dickinson, ND",31315,66,82,DIK
-"Williston, ND",32389,66,82,ISN
-"Denver, CO",30325,82,66,DEN
-"St. Louis, MO",31123,64,82,STL
-"Eagle, CO",31503,82,64,EGE
-"Eagle, CO",31503,82,36,EGE
-"Denver, CO",30325,82,34,DEN
-"Greer, SC",31871,37,82,GSP
-"Victorville, CA",35570,91,82,VCV
-"Colorado Springs, CO",30189,82,85,COS
-"Burbank, CA",32575,91,82,BUR
-"Eagle, CO",31503,82,91,EGE
-"Aspen, CO",30372,82,87,ASE
-"Phoenix, AZ",30466,81,82,PHX
-"Denver, CO",30325,82,23,DEN
-"Colorado Springs, CO",30189,82,34,COS
-"Atlanta, GA",30397,34,82,ATL
-"Dallas/Fort Worth, TX",30194,74,82,DFW
-"Denver, CO",30325,82,88,DEN
-"Cincinnati, OH",33105,52,82,CVG
-"Detroit, MI",31295,43,82,DTW
-"Sioux Falls, SD",31775,67,82,FSD
-"Las Vegas, NV",32211,85,82,LAS
-"San Diego, CA",33570,91,82,SAN
-"Salt Lake City, UT",34614,87,82,SLC
-"Denver, CO",30325,82,43,DEN
-"Denver, CO",30325,82,63,DEN
-"Denver, CO",30325,82,73,DEN
-"Denver, CO",30325,82,87,DEN
-"Denver, CO",30325,82,11,DEN
-"Detroit, MI",31295,43,82,YIP
-"Colorado Springs, CO",30189,82,91,COS
-"Denver, CO",30325,82,65,DEN
-"Cleveland, OH",30647,44,82,CLE
-"Jackson/Vicksburg, MS",32448,53,82,JAN
-"Los Angeles, CA",32575,91,82,LAX
-"Miami, FL",32467,33,82,MIA
-"Richmond, VA",34524,38,82,RIC
-"Denver, CO",30325,82,64,DEN
-"Denver, CO",30325,82,82,DEN
-"Colorado Springs, CO",30189,82,74,COS
-"Buffalo, NY",30792,22,82,BUF
-"Corpus Christi, TX",31140,74,82,CRP
-"Panama City, FL",31481,33,82,ECP
-"Gulfport/Biloxi, MS",31973,53,82,GPT
-"Lubbock, TX",32896,74,82,LBB
-"Little Rock, AR",32600,71,82,LIT
-"Austin, TX",30423,74,82,AUS
-"Chicago, IL",30977,41,82,ORD
-"San Jose, CA",32457,91,82,SJC
-"Denver, CO",30325,82,74,APA
-"Denver, CO",30325,82,44,APA
-"Aspen, CO",30372,82,74,ASE
-"Denver, CO",30325,82,81,DEN
-"Denver, CO",30325,82,74,DEN
-"Oakland, CA",32457,91,82,OAK
-"Pontiac, MI",34275,43,82,PTK
-"Grand Junction, CO",31921,82,87,GJT
-"Wendover, UT",31563,87,82,ENV
-"Denver, CO",30325,82,22,DEN
-"Denver, CO",30325,82,41,DEN
-"Milwaukee, WI",33342,45,82,MKE
-"Denver, CO",30325,82,85,DEN
-"Bullhead City, AZ",30590,81,82,IFP
-"Fort Collins/Loveland, CO",31719,82,81,FNL
-"Montrose/Delta, CO",33502,82,81,MTJ
-"Pueblo, CO",34288,82,81,PUB
-"Pueblo, CO",34288,82,51,PUB
-"Denver, CO",30325,82,52,DEN
-"Colorado Springs, CO",30189,82,93,COS
-"Oklahoma City, OK",33851,73,82,OKC
-"Denver, CO",30325,82,62,DEN
-"Scottsbluff, NE",30558,65,82,BFF
-"Dodge City, KS",31283,62,82,DDC
-"Kearney, NE",31468,65,82,EAR
-"North Platte, NE",32899,65,82,LBF
-"Liberal, KS",32902,62,82,LBL
-"Denver, CO",30325,82,62,APA
-"Page, AZ",34081,81,82,PGA
-"Farmington, NM",31711,86,82,FMN
-"Watertown, SD",30409,67,82,ATY
-"Grand Junction, CO",31921,82,85,GJT
-"Wichita, KS",30928,62,82,ICT
-"Boston, MA",30721,13,82,BOS
-"Denver, CO",30325,82,33,DEN
-"Colorado Springs, CO",30189,82,41,COS
-"Denver, CO",30325,82,36,DEN
-"Colorado Springs, CO",30189,82,87,COS
-"Minneapolis, MN",31650,63,82,MSP
-"Tulsa, OK",34653,73,82,TUL
-"Missoula, MT",33486,84,82,MSO
-"Tucson, AZ",30436,81,82,TUS
-"Colorado Springs, CO",30189,82,38,COS
-"Albuquerque, NM",30140,86,82,ABQ
-"Cedar Rapids/Iowa City, IA",31003,61,82,CID
-"Cody, WY",31097,88,82,COD
-"Casper, WY",31122,88,82,CPR
-"Grand Rapids, MI",31986,43,82,GRR
-"Houston, TX",31453,74,82,IAH
-"Jackson, WY",32441,88,82,JAC
-"Medford, OR",33264,92,82,MFR
-"Omaha, NE",33316,65,82,OMA
-"Bend/Redmond, OR",34489,92,82,RDM
-"Louisville, KY",33044,52,82,SDF
-"Santa Ana, CA",32575,91,82,SNA
-"Sun Valley/Hailey/Ketchum, ID",35041,83,82,SUN
-"Denver, CO",30325,82,71,DEN
-"Denver, CO",30325,82,92,DEN
-"Colorado Springs, CO",30189,82,84,COS
-"Grand Junction, CO",31921,82,93,GJT
-"Denver, CO",30325,82,86,DEN
-"Denver, CO",30325,82,13,DEN
-"Denver, CO",30325,82,84,DEN
-"Billings, MT",30620,84,82,BIL
-"Bozeman, MT",30849,84,82,BZN
-"Fort Lauderdale, FL",32467,33,82,FLL
-"Washington, DC",30852,38,82,IAD
-"Kansas City, MO",33198,64,82,MCI
-"Orlando, FL",31454,33,82,MCO
-"Philadelphia, PA",34100,23,82,PHL
-"Palm Springs, CA",34262,91,82,PSP
-"Reno, NV",34570,85,82,RNO
-"Denver, CO",30325,82,38,DEN
-"Denver, CO",30325,82,37,DEN
-"Denver, CO",30325,82,44,DEN
-"Boise, ID",30713,83,82,BOI
-"Portland, OR",34057,92,82,PDX
-"Fort Myers, FL",31714,33,82,RSW
-"Denver, CO",30325,82,72,DEN
-"Colorado Springs, CO",30189,82,82,COS
-"Des Moines, IA",31423,61,82,DSM
-"Columbus, OH",31066,44,82,CMH
-"Indianapolis, IN",32337,42,82,IND
-"Knoxville, TN",35412,54,82,TYS
-"Denver, CO",30325,82,42,DEN
-"Denver, CO",30325,82,54,DEN
-"New Orleans, LA",33495,72,82,MSY
-"Grand Junction, CO",31921,82,54,GJT
-"Lawton/Fort Sill, OK",32891,73,82,LAW
-"Durango, CO",30285,82,82,DRO
-"Montrose/Delta, CO",33502,82,74,MTJ
-"Salina, KS",34877,62,82,SLN
-"Gunnison, CO",32012,82,74,GUC
-"Seattle, WA",30559,93,82,BFI
-"Denver, CO",30325,82,61,DEN
-"Grand Junction, CO",31921,82,82,GJT
-"Great Falls, MT",31895,84,82,GTF
-"San Antonio, TX",33214,74,82,SAT
-"Aspen, CO",30372,82,82,ASE
-"Grand Junction, CO",31921,82,41,GJT
-"Washington, DC",30852,38,82,DCA
-"Spokane, WA",31884,93,82,GEG
-"Raleigh/Durham, NC",34492,36,82,RDU
-"Santa Barbara, CA",34689,91,82,SBA
-"Tampa, FL",33195,33,82,TPA
-"Denver, CO",30325,82,21,DEN
-"Denver, CO",30325,82,93,DEN
-"Denver, CO",30325,82,83,DEN
-"Baltimore, MD",30852,35,82,BWI
-"Charleston, SC",30994,37,82,CHS
-"Birmingham, AL",30599,51,82,BHM
-"Madison, WI",33485,45,82,MSN
-"Denver, CO",30325,82,45,DEN
-"El Paso, TX",30615,74,82,ELP
-"Amarillo, TX",30279,74,82,AMA
-"Dayton, OH",31267,44,82,DAY
-"Montrose/Delta, CO",33502,82,82,MTJ
-"Ontario, CA",32575,91,82,ONT
-"Grand Junction, CO",31921,82,91,GJT
-"Denver, CO",30325,82,67,DEN
-"Denver, CO",30325,82,35,DEN
-"Newark, NJ",31703,21,82,EWR
-"Long Beach, CA",32575,91,82,LGB
-"Norfolk, VA",33667,38,82,ORF
-"Seattle, WA",30559,93,82,SEA
-"Sacramento, CA",33192,91,82,SMF
-"Denver, CO",30325,82,51,DEN
-"Nashville, TN",30693,54,82,BNA
-"Memphis, TN",33244,54,82,MEM
-"Fayetteville, AR",31834,71,82,XNA
-"Springfield, MO",34783,64,82,SGF
-"Shreveport, LA",30476,72,82,SHV
-"Durango, CO",30285,82,91,DRO
-"Charlotte, NC",31057,36,82,CLT
-"Eugene, OR",31603,92,82,EUG
-"Kalispell, MT",31648,84,82,FCA
-"Lihue, HI",32982,2,82,LIH
-"Denver, CO",30325,82,2,DEN
-"Montrose/Delta, CO",33502,82,41,MTJ
-"Minot, ND",33304,66,82,MOT
-"Cheyenne, WY",31233,88,82,CYS
-"North Bend/Coos Bay, OR",33964,92,82,OTH
-"Jacksonville, FL",31136,33,82,JAX
-"Pittsburgh, PA",30198,23,82,PIT
-"Pensacola, FL",33728,33,82,PNS
-"Hayden, CO",34699,82,82,HDN
-"Hartford, CT",30529,11,82,BDL
-"New York, NY",31703,22,82,LGA
-"Houston, TX",31453,74,82,HOU
-"Gunnison, CO",32012,82,82,GUC
-"Colorado Springs, CO",30189,82,81,COS
-"Phoenix, AZ",30466,81,82,AZA
-"Branson, MO",30643,64,82,BKG
-"Telluride, CO",35177,82,82,TEX
-"Cortez, CO",30950,82,81,CEZ
-"New York, NY",31703,22,82,JFK
-"Greensboro/High Point, NC",31995,36,82,GSO
-"Moline, IL",33367,41,82,MLI
-"Fresno, CA",31638,91,82,FAT
-"Dallas, TX",30194,74,82,DAL
-"Dallas/Fort Worth, TX",30194,74,82,AFW
-"Durango, CO",30285,82,86,DRO
-"Bismarck/Mandan, ND",30627,66,82,BIS
-"Colorado Springs, CO",30189,82,54,COS
-"Rapid City, SD",34457,67,82,RAP
-"Aspen, CO",30372,82,91,ASE
-"San Luis Obispo, CA",34236,91,82,SBP
-"Kona, HI",32758,2,82,KOA
-"Kahului, HI",33830,2,82,OGG
-"Midland/Odessa, TX",33158,74,82,MAF
-"Hayden, CO",34699,82,88,HDN
-"Cortez, CO",30950,82,82,CEZ
-"Alamosa, CO",30272,82,86,ALS
-"Lincoln, NE",33029,65,82,LNK
-"Fargo, ND",31637,66,82,FAR
-"Eagle, CO",31503,82,74,EGE
-"Eagle, CO",31503,82,82,EGE
-"Helena, MT",32156,84,82,HLN
-"Honolulu, HI",32134,2,82,HNL
-"Albany, NY",30257,22,82,ALB
-"Colorado Springs, CO",30189,82,33,COS
-"Huntsville, AL",30255,51,82,HSV
-"Riverton/Lander, WY",34534,88,82,RIW
-"Pierre, SD",34120,67,82,PIR
-"Aspen, CO",30372,82,41,ASE
-"Denver, CO",30325,82,1,DEN
-"Hays, KS",32255,62,82,HYS
-"Jamestown, ND",32519,66,82,JMS
-"Laramie, WY",32888,88,82,LAR
-"Alliance, NE",30221,65,82,AIA
-"Chadron, NE",30925,65,82,CDR
-"McCook, NE",33200,65,82,MCK
-"Vernal, UT",35582,87,82,VEL
-"Anchorage, AK",30299,1,82,ANC
-"Bakersfield, CA",30561,91,82,BFL
-"Gillette, WY",31865,88,82,GCC
-"Rock Springs, WY",34543,88,82,RKS
-"Moab, UT",31092,87,82,CNY
-"Pasco/Kennewick/Richland, WA",34252,93,82,PSC
-"St. George, UT",34794,87,82,SGU
-"Durango, CO",30285,82,81,DRO
-"Grand Junction, CO",31921,82,81,GJT
-"Santa Fe, NM",34674,86,82,SAF
-"Pueblo, CO",34288,82,82,PUB
-"Alamosa, CO",30272,82,82,ALS
-"Idaho Falls, ID",32280,83,82,IDA
-"Grand Junction, CO",31921,82,74,GJT
-"Durango, CO",30285,82,74,DRO
-"Chicago, IL",30977,41,82,MDW
+city_state,origin_market_id,wac,city_abr
+"Long Beach, CA",32575,91,LGB
+"Denver, CO",30325,82,DEN
+"San Francisco, CA",32457,91,SFO
+"Des Moines, IA",31423,61,DSM
+"Dickinson, ND",31315,66,DIK
+"Eagle, CO",31503,82,EGE
+"St. Louis, MO",31123,64,STL
+"CONCORD, NC",32544,36,USA
+"Atlanta, GA",30397,34,ATL
+"Colorado Springs, CO",30189,82,COS
+"Las Vegas, NV",32211,85,LAS
+"Aspen, CO",30372,82,ASE
+"Burbank, CA",32575,91,BUR
+"Salt Lake City, UT",34614,87,SLC
+"Philadelphia, PA",34100,23,PHL
+"Casper, WY",31122,88,CPR
+"Detroit, MI",31295,43,DTW
+"Minneapolis, MN",31650,63,MSP
+"Oklahoma City, OK",33851,73,OKC
+"Hartford, CT",30529,11,BDL
+"Oakland, CA",32457,91,OAK
+"Scottsbluff, NE",30558,65,BFF
+"Kansas City, MO",33198,64,MKC
+"Cheyenne, WY",31233,88,CYS
+"Dallas, TX",30194,74,DAL
+"San Jose, CA",32457,91,SJC
+"Denver, CO",30325,82,APA
+"Austin, TX",30423,74,AUS
+"Columbus, OH",31066,44,CMH
+"Sugar Land, TX",34792,74,SGR
+"Phoenix, AZ",30466,81,AZA
+"Brownsville, TX",30747,74,BRO
+"Wendover, UT",31563,87,ENV
+"Grand Junction, CO",31921,82,GJT
+"Rochester, NY",34576,22,ROC
+"Tulsa, OK",34653,73,TUL
+"Chicago, IL",30977,41,DPA
+"Reno, NV",34570,85,RNO
+"Fort Collins/Loveland, CO",31719,82,FNL
+"Bullhead City, AZ",30590,81,IFP
+"Montrose/Delta, CO",33502,82,MTJ
+"Pueblo, CO",34288,82,PUB
+"Gadsden, AL",31840,51,GAD
+"Cincinnati, OH",33105,52,CVG
+"Seattle, WA",30559,93,SEA
+"Dodge City, KS",31283,62,DDC
+"Kearney, NE",31468,65,EAR
+"North Platte, NE",32899,65,LBF
+"Liberal, KS",32902,62,LBL
+"Williston, ND",32389,66,ISN
+"Orlando, FL",31454,33,MCO
+"Chicago, IL",30977,41,ORD
+"Raleigh/Durham, NC",34492,36,RDU
+"Grand Rapids, MI",31986,43,GRR
+"Cody, WY",31097,88,COD
+"Washington, DC",30852,38,DCA
+"Dallas/Fort Worth, TX",30194,74,DFW
+"Houston, TX",31453,74,IAH
+"Jackson, WY",32441,88,JAC
+"Laramie, WY",32888,88,LAR
+"Los Angeles, CA",32575,91,LAX
+"Little Rock, AR",32600,71,LIT
+"Medford, OR",33264,92,MFR
+"Missoula, MT",33486,84,MSO
+"Portland, OR",34057,92,PDX
+"Pasco/Kennewick/Richland, WA",34252,93,PSC
+"San Diego, CA",33570,91,SAN
+"San Antonio, TX",33214,74,SAT
+"St. George, UT",34794,87,SGU
+"Sacramento, CA",33192,91,SMF
+"Santa Ana, CA",32575,91,SNA
+"Albuquerque, NM",30140,86,ABQ
+"Boston, MA",30721,13,BOS
+"Bozeman, MT",30849,84,BZN
+"Washington, DC",30852,38,IAD
+"Kansas City, MO",33198,64,MCI
+"Palm Springs, CA",34262,91,PSP
+"Richmond, VA",34524,38,RIC
+"Santa Barbara, CA",34689,91,SBA
+"Charleston, SC",30994,37,CHS
+"Cleveland, OH",30647,44,CLE
+"New Orleans, LA",33495,72,MSY
+"Pittsburgh, PA",30198,23,PIT
+"Fort Myers, FL",31714,33,RSW
+"Wichita, KS",30928,62,ICT
+"Louisville, KY",33044,52,SDF
+"Indianapolis, IN",32337,42,IND
+"Phoenix, AZ",30466,81,PHX
+"Tampa, FL",33195,33,TPA
+"Knoxville, TN",35412,54,TYS
+"Memphis, TN",33244,54,MEM
+"Durango, CO",30285,82,DRO
+"Salina, KS",34877,62,SLN
+"Fresno, CA",31638,91,FAT
+"Great Falls, MT",31895,84,GTF
+"Fayetteville, AR",31834,71,XNA
+"Eugene, OR",31603,92,EUG
+"Newark, NJ",31703,21,EWR
+"Spokane, WA",31884,93,GEG
+"Tucson, AZ",30436,81,TUS
+"Boise, ID",30713,83,BOI
+"Madison, WI",33485,45,MSN
+"Moline, IL",33367,41,MLI
+"Amarillo, TX",30279,74,AMA
+"Lubbock, TX",32896,74,LBB
+"Ontario, CA",32575,91,ONT
+"Rapid City, SD",34457,67,RAP
+"Baltimore, MD",30852,35,BWI
+"Charlotte, NC",31057,36,CLT
+"Albany, NY",30257,22,ALB
+"Omaha, NE",33316,65,OMA
+"Norfolk, VA",33667,38,ORF
+"Birmingham, AL",30599,51,BHM
+"Cedar Rapids/Iowa City, IA",31003,61,CID
+"Billings, MT",30620,84,BIL
+"Shreveport, LA",30476,72,SHV
+"Springfield, MO",34783,64,SGF
+"Kalispell, MT",31648,84,FCA
+"Lihue, HI",32982,2,LIH
+"Milwaukee, WI",33342,45,MKE
+"El Paso, TX",30615,74,ELP
+"Fort Lauderdale, FL",32467,33,FLL
+"Nashville, TN",30693,54,BNA
+"Houston, TX",31453,74,HOU
+"Minot, ND",33304,66,MOT
+"North Bend/Coos Bay, OR",33964,92,OTH
+"Bend/Redmond, OR",34489,92,RDM
+"Jacksonville, FL",31136,33,JAX
+"Bakersfield, CA",30561,91,BFL
+"Pensacola, FL",33728,33,PNS
+"Sioux Falls, SD",31775,67,FSD
+"Gunnison, CO",32012,82,GUC
+"Hayden, CO",34699,82,HDN
+"Branson, MO",30643,64,BKG
+"Telluride, CO",35177,82,TEX
+"Cortez, CO",30950,82,CEZ
+"New York, NY",31703,22,JFK
+"New York, NY",31703,22,LGA
+"Greensboro/High Point, NC",31995,36,GSO
+"Rockford, IL",34512,41,RFD
+"Dallas/Fort Worth, TX",30194,74,AFW
+"Dayton, OH",31267,44,DAY
+"Farmington, NM",31711,86,FMN
+"Devils Lake, ND",31447,66,DVL
+"Lincoln, NE",33029,65,LNK
+"Bismarck/Mandan, ND",30627,66,BIS
+"San Luis Obispo, CA",34236,91,SBP
+"Midland/Odessa, TX",33158,74,MAF
+"Kona, HI",32758,2,KOA
+"Kahului, HI",33830,2,OGG
+"Alamosa, CO",30272,82,ALS
+"Miami, FL",32467,33,MIA
+"Helena, MT",32156,84,HLN
+"Jamestown, ND",32519,66,JMS
+"Honolulu, HI",32134,2,HNL
+"Huntsville, AL",30255,51,HSV
+"Fargo, ND",31637,66,FAR
+"Riverton/Lander, WY",34534,88,RIW
+"Anchorage, AK",30299,1,ANC
+"Pierre, SD",34120,67,PIR
+"Hays, KS",32255,62,HYS
+"Alliance, NE",30221,65,AIA
+"Chadron, NE",30925,65,CDR
+"McCook, NE",33200,65,MCK
+"Vernal, UT",35582,87,VEL
+"Gillette, WY",31865,88,GCC
+"Rock Springs, WY",34543,88,RKS
+"Moab, UT",31092,87,CNY
+"Santa Fe, NM",34674,86,SAF
+"Idaho Falls, ID",32280,83,IDA
+"Chicago, IL",30977,41,MDW
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

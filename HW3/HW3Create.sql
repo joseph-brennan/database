@@ -1,6 +1,7 @@
 /*
 * Joey Brennan
-* \i 'C:/Users/Joey/Documents/Database/Hw2/HW2.sql';
+*
+* drop table aircrafts, airports, carrier, carrier_dates, city, distance, flight, regions, state;
 */
 
 CREATE TABLE Regions (
@@ -16,12 +17,11 @@ CREATE TABLE State (
 );
 
 CREATE TABLE City (
-    city_state VARCHAR(20) PRIMARY KEY,
-    destination_market_id INT,
-    destination_wac INT,
-    origin_wac INT,
+    city_state VARCHAR(40),
+    origin_market_id INT,
+    wac INT,
     city_abr VARCHAR(10),
-    UNIQUE (city_abr)
+    PRIMARY KEY (city_abr)
 );
 
 CREATE TABLE Carrier_dates (
@@ -54,8 +54,8 @@ CREATE TABLE Airports (
 );
 
 CREATE TABLE Carrier (
-    carrier_name VARCHAR(30),
-    unique_carrier_name VARCHAR(30),
+    carrier_name VARCHAR(50),
+    unique_carrier_name VARCHAR(50),
     carrier VARCHAR(10) PRIMARY KEY,
     region_abr VARCHAR(10),
     carrier_group INT,
