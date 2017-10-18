@@ -1,9 +1,9 @@
 /*
 * Joey Brennan
-* \i 'C:/Users/Joey/Documents/Database/Hw2/HW2.sql';
+*
 */
 
-\COPY regions FROM 'C:\Users\Joey\Documents\Database\HW3\region.csv' CSV HEADER;
+\COPY regions FROM 'C:\Users\Joey\Documents\Database\HW3\regions.csv' CSV HEADER;
 
 \COPY state FROM 'C:\Users\Joey\Documents\Database\HW3\state.csv' CSV HEADER;
 
@@ -11,9 +11,9 @@
 
 \COPY carrier_dates FROM 'C:\Users\Joey\Documents\Database\HW3\carrier_dates.csv' CSV HEADER;
 
-\COPY aircrafts FROM 'C:\Users\Joey\Documents\Database\HW3\normalized_aircrafts.csv' CSV HEADER;
+\COPY aircrafts FROM 'C:\Users\Joey\Documents\Database\HW3\aircrafts.csv' CSV HEADER;
 
-\COPY airports FROM 'C:\Users\Joey\Documents\Database\HW3\airports.csv' CSV HEADER;
+\COPY airports FROM 'C:\Users\Joey\Documents\Database\HW3\airport.csv' CSV HEADER;
 
 \COPY carrier FROM 'C:\Users\Joey\Documents\Database\HW3\carrier.csv' CSV HEADER;
 

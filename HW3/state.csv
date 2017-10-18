@@ -1,44 +1,45 @@
-state_abv,fips,state_nm
-CA,6,California
-CO,8,Colorado
-IA,19,Iowa
-ND,38,North Dakota
-MO,29,Missouri
-NC,37,North Carolina
-GA,13,Georgia
-NV,32,Nevada
-UT,49,Utah
-PA,42,Pennsylvania
-WY,56,Wyoming
-MI,26,Michigan
-MN,27,Minnesota
-OK,40,Oklahoma
-CT,9,Connecticut
-NE,31,Nebraska
-TX,48,Texas
-OH,39,Ohio
-AZ,4,Arizona
-NY,36,New York
-IL,17,Illinois
-AL,1,Alabama
-KY,21,Kentucky
-WA,53,Washington
-KS,20,Kansas
-FL,12,Florida
-VA,51,Virginia
-AR,5,Arkansas
-OR,41,Oregon
-MT,30,Montana
-NM,35,New Mexico
-MA,25,Massachusetts
-SC,45,South Carolina
-LA,22,Louisiana
-IN,18,Indiana
-TN,47,Tennessee
-NJ,34,New Jersey
-ID,16,Idaho
-WI,55,Wisconsin
-SD,46,South Dakota
-MD,24,Maryland
-HI,15,Hawaii
-AK,2,Alaska
+state_abv,fips,state_nm,destination_wac
+CO,8,Colorado,82
+CA,6,California,91
+ND,38,North Dakota,66
+MO,29,Missouri,64
+SC,45,South Carolina,37
+AZ,4,Arizona,81
+GA,13,Georgia,34
+TX,48,Texas,74
+KY,21,Kentucky,52
+MI,26,Michigan,43
+SD,46,South Dakota,67
+NV,32,Nevada,85
+UT,49,Utah,87
+OH,39,Ohio,44
+MS,28,Mississippi,53
+FL,12,Florida,33
+VA,51,Virginia,38
+NY,36,New York,22
+AR,5,Arkansas,71
+IL,17,Illinois,41
+WI,55,Wisconsin,45
+OK,40,Oklahoma,73
+NE,31,Nebraska,65
+KS,20,Kansas,62
+NM,35,New Mexico,86
+MA,25,Massachusetts,13
+MN,27,Minnesota,63
+MT,30,Montana,84
+IA,19,Iowa,61
+WY,56,Wyoming,88
+OR,41,Oregon,92
+ID,16,Idaho,83
+PA,42,Pennsylvania,23
+IN,18,Indiana,42
+TN,47,Tennessee,54
+LA,22,Louisiana,72
+WA,53,Washington,93
+NC,37,North Carolina,36
+MD,24,Maryland,35
+AL,1,Alabama,51
+NJ,34,New Jersey,21
+HI,15,Hawaii,2
+CT,9,Connecticut,11
+AK,2,Alaska,1
