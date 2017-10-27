@@ -1,7 +1,7 @@
 /*
 * Joey Brennan
 * \i 'C:/Users/Joey/Documents/Database/HW5/HW5.sql';
-* drop table booking, customer, mail_address;
+* drop table booking, customer, mail_address, flight;
 */
 CREATE TABLE Mail_Address (
     my_key SERIAL PRIMARY KEY,
@@ -36,8 +36,10 @@ CREATE TABLE flight (
     air_time INT,
     booking_number INT,
     flight_number INT,
-    date_time_origin INT,
-    date_time_destination INT,
+    date_origin date,
+    time_origin time,
+    date_destination date,
+    time_destination time,
     customer_last_payment VARCHAR(30),
     customer_first_payment VARCHAR(30),
     customer_last_ticket VARCHAR(30),
