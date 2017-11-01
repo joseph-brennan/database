@@ -1,7 +1,7 @@
 /*
 * Joey Brennan
 * \i 'C:/Users/Joey/Documents/Database/HW5/HW5.sql';
-* drop table booking, customer, mail_address, flight;
+* drop table booking, customer, mail_address, flight, city, routes, countries;
 */
 CREATE TABLE Mail_Address (
     my_key SERIAL PRIMARY KEY,
@@ -11,11 +11,30 @@ CREATE TABLE Mail_Address (
     postal_code INT
 );
 
-CREATE TABLE booking (
+CREATE TABLE Countries (
+    name VARCHAR(30),
+    abrivation VARCHAR(10) PRIMARY KEY,
+    area_code INT
+
+);
+
+CREATE TABLE City (
+    name VARCHAR(20),
+    origin_id INT UNIQUE,
+    destination_id INT UNIQUE,
+    state VARCHAR(30),
+    country_abr VARCHAR(10),
+    code INT UNIQUE,
+    FOREIGN KEY (country_abr) REFERENCES Countries(abrivation),
+    PRIMARY KEY (name, country_abr)
+);
+
+CREATE TABLE Booking (
     booking_number INT,
     city_code INT,
     book_date INT,
-    PRIMARY KEY (booking_number)
+    PRIMARY KEY (booking_number),
+    FOREIGN KEY (city_code) REFERENCES City(code)
 );
 
 CREATE TABLE Customer (
@@ -28,7 +47,7 @@ CREATE TABLE Customer (
     PRIMARY KEY (first_name, last_name)
 );
 
-CREATE TABLE flight (
+CREATE TABLE Flight (
     flight_origin INT,
     flight_destination INT,
     unique_flight_number INT,
@@ -47,5 +66,16 @@ CREATE TABLE flight (
     FOREIGN KEY (booking_number) REFERENCES booking(booking_number),
     FOREIGN KEY (customer_last_payment, customer_first_payment) REFERENCES Customer(last_name, first_name),
     FOREIGN KEY (customer_last_ticket, customer_first_ticket) REFERENCES Customer(last_name, first_name),
+    FOREIGN KEY (flight_origin) REFERENCES City(origin_id),
+    FOREIGN KEY (flight_destination) REFERENCES City(destination_id),
     PRIMARY KEY (unique_flight_number)
+);
+
+CREATE TABLE Routes (
+    origin INT,
+    destination INT,
+    airline INT,
+    PRIMARY KEY (airline, origin, destination),
+    FOREIGN KEY (origin) REFERENCES City(origin_id),
+    FOREIGN KEY (destination) REFERENCES City(destination_id)
 );
