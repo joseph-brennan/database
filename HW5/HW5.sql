@@ -1,7 +1,7 @@
 /*
 * Joey Brennan
 * \i 'C:/Users/Joey/Documents/Database/HW5/HW5.sql';
-* drop table booking, customer, mail_address, flight, city, routes, countries;
+* drop table booking, customer, mail_address, flight, city, routes, countries, airline;
 */
 CREATE TABLE Mail_Address (
     my_key SERIAL PRIMARY KEY,
@@ -16,6 +16,13 @@ CREATE TABLE Countries (
     abrivation VARCHAR(10) PRIMARY KEY,
     area_code INT
 
+);
+
+CREATE TABLE Airline (
+    name VARCHAR(30),
+    country VARCHAR(30),
+    code INT PRIMARY KEY,
+    FOREIGN KEY (country) REFERENCES Countries(abrivation)
 );
 
 CREATE TABLE City (
@@ -68,6 +75,7 @@ CREATE TABLE Flight (
     FOREIGN KEY (customer_last_ticket, customer_first_ticket) REFERENCES Customer(last_name, first_name),
     FOREIGN KEY (flight_origin) REFERENCES City(origin_id),
     FOREIGN KEY (flight_destination) REFERENCES City(destination_id),
+    FOREIGN KEY (airline) REFERENCES Airline(code),
     PRIMARY KEY (unique_flight_number)
 );
 
@@ -77,5 +85,6 @@ CREATE TABLE Routes (
     airline INT,
     PRIMARY KEY (airline, origin, destination),
     FOREIGN KEY (origin) REFERENCES City(origin_id),
-    FOREIGN KEY (destination) REFERENCES City(destination_id)
+    FOREIGN KEY (destination) REFERENCES City(destination_id),
+    FOREIGN KEY (airline) REFERENCES Airline(code)
 );
