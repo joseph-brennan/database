@@ -1,7 +1,7 @@
 /*
 * Joey Brennan
 * \i 'C:/Users/Joey/Documents/Database/HW5/HW5.sql';
-* drop table booking, customer, mail_address, flight, city, routes, countries, airline;
+* drop table airline, booking, city, countries, customer, flight, mail_address, routes, ticket;
 */
 CREATE TABLE Mail_Address (
     my_key SERIAL PRIMARY KEY,
@@ -15,7 +15,6 @@ CREATE TABLE Countries (
     name VARCHAR(30),
     abrivation VARCHAR(10) PRIMARY KEY,
     area_code INT
-
 );
 
 CREATE TABLE Airline (
@@ -54,6 +53,18 @@ CREATE TABLE Customer (
     PRIMARY KEY (first_name, last_name)
 );
 
+CREATE TABLE Ticket (
+    ticket_id SERIAL PRIMARY KEY,
+    booking_number INT,
+    customer_last_payment VARCHAR(30),
+    customer_first_payment VARCHAR(30),
+    customer_last_ticket VARCHAR(30),
+    customer_first_ticket VARCHAR(30),
+    FOREIGN KEY (customer_last_payment, customer_first_payment) REFERENCES Customer(last_name, first_name),
+    FOREIGN KEY (customer_last_ticket, customer_first_ticket) REFERENCES Customer(last_name, first_name),
+    FOREIGN KEY (booking_number) REFERENCES Booking(booking_number)
+);
+
 CREATE TABLE Flight (
     flight_origin INT,
     flight_destination INT,
@@ -62,17 +73,11 @@ CREATE TABLE Flight (
     air_time INT,
     booking_number INT,
     flight_number INT,
-    date_origin date,
-    time_origin time,
-    date_destination date,
-    time_destination time,
-    customer_last_payment VARCHAR(30),
-    customer_first_payment VARCHAR(30),
-    customer_last_ticket VARCHAR(30),
-    customer_first_ticket VARCHAR(30),
+    date_time_origin TIMESTAMP,
+    date_destination TIMESTAMP,
+    ticket_id INT,
+    FOREIGN KEY (ticket_id) REFERENCES Ticket(ticket_id),
     FOREIGN KEY (booking_number) REFERENCES booking(booking_number),
-    FOREIGN KEY (customer_last_payment, customer_first_payment) REFERENCES Customer(last_name, first_name),
-    FOREIGN KEY (customer_last_ticket, customer_first_ticket) REFERENCES Customer(last_name, first_name),
     FOREIGN KEY (flight_origin) REFERENCES City(origin_id),
     FOREIGN KEY (flight_destination) REFERENCES City(destination_id),
     FOREIGN KEY (airline) REFERENCES Airline(code),
