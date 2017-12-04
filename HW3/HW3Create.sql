@@ -46,8 +46,10 @@ CREATE TABLE Airports (
     origin_airport_id INT,
     destination_airport_id INT,
     origin_airport_seq_id INT,
+    city VARCHAR(40),
     destination_airport_seq_id INT,
-    PRIMARY KEY (origin_airport_id, destination_airport_id)
+    PRIMARY KEY (origin_airport_id, destination_airport_id),
+    FOREIGN KEY (city) REFERENCES City(city_abr)
 );
 
 CREATE TABLE Carrier (
@@ -84,5 +86,6 @@ CREATE TABLE Flight (
     aircraft_type INT,
     carrier VARCHAR(10),
     flight_id INT PRIMARY KEY,
-    FOREIGN KEY (origin_airport_id, destination_airport_id) REFERENCES Airports(origin_airport_id, destination_airport_id)
+    FOREIGN KEY (origin_airport_id, destination_airport_id) REFERENCES Airports(origin_airport_id, destination_airport_id),
+    FOREIGN KEY (carrier) REFERENCES Carrier(carrier_entity)
 );
